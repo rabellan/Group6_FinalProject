@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Where Should I Move?</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="cityForm" style="position: absolute; z-index: 1000; background: rgba(255, 255, 255, 0.8); padding: 10px;">
+        <input type="radio" id="losAngeles" name="city" value="Los Angeles">
+        <label for="losAngeles">Los Angeles</label><br>
+        <input type="radio" id="austin" name="city" value="Austin">
+        <label for="austin">Austin</label><br>
+        <input type="radio" id="chicago" name="city" value="Chicago">
+        <label for="chicago">Chicago</label><br>
+        <input type="radio" id="newyork" name="city" value="New York City">
+        <label for="newyork">New York City</label><br>
+        <input type="radio" id="miami" name="city" value="Miami">
+        <label for="miami">Miami</label>
+    </form>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="logic.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

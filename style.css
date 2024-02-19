@@ -1,0 +1,21 @@
+
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+#map {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+}
+#cityForm {
+    position: absolute;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    bottom: 0; /* Align the form at the bottom of the viewport */
+    left: 0; /* Align the form to the right of the viewport */
+    text-align: left; /* Align the radio buttons and labels to the left */
+}
