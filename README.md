@@ -76,8 +76,7 @@ Supervised machine learning modeling, were used for the following phase of the p
 
 **Methodology**
 1. Data cleaning
-    - Using MS Excel, from the original files in the **"Updated Data/For Sale"** folder from **main** branch, **Roland** updated the "Zillow_CityName_For_Sale.csv
-        - Included feature "FederalInt" for federal Interest Rate
+    - Using MS Excel, from the original files in the **"Updated Data/For Sale"** folder from **main** branch, were updated and placed under[ here to isolate from the raw data and used for further analysis](https://github.com/rabellan/Group6_FinalProject/tree/main/Price_Cut/Resources)
         - Null values for NON-categorical features were replaced with 0 
         - Eliminated rows of "Property type", "Lot/land" to take away data that might throw off the balance of the dataset since most properties sold were "Single Family," "Condominium," "Unknown," and "Multi-Family"
             - The rows of "Lot/Land" Property type were typically BEYOND the square footage of the other property types.
@@ -91,6 +90,7 @@ Supervised machine learning modeling, were used for the following phase of the p
         - Lot/land area unit
     - In the end, the "Property type" categorical feature was the one that bumped up the precision performance of the supervised model by combining it with using OneHotEncoder and **pipeline** fitting.
 
+[**To see all the exploratory Jupyter Notebooks for ALL supervised models (Decision tree, decision tree with feature engineering, and random forest), click here**](https://github.com/rabellan/Group6_FinalProject/tree/main/Price_Cut)
 
 ### [Real Estate Radar Price Prediction For Both Rental & Sale Properties (Brandon Ingalz and Jimmy Nguyen)](https://github.com/rabellan/Group6_FinalProject/blob/Brandon/Price%20Estimate%20Rent%20vs%20Buy%20Analysis/Updated%20Rent%20vs%20Buy%20Price%20Estimate%20%26%20Analysis.md)
 
@@ -99,3 +99,19 @@ Supervised machine learning modeling, were used for the following phase of the p
 The last phase aimed to predict real estate prices for rentals and sales using data analysis and machine learning, employing linear regression and random forest algorithms. It utilized two datasets, one for rentals and one for sales, and includes a comparison model for price estimates based on specific criteria. 
 
 Analysis revealed a positive but weak correlation between rental prices and property size, bedrooms, and bathrooms, indicating these factors modestly influence rental prices. However, it also notes that external factors like neighborhood and city location play significant roles in determining rental rates.
+
+**Dataset**
+- **Rental Dataset**: Contains information about rental properties including rental price, living area, number of bedrooms and bathrooms, city, and state.
+- **Sale Dataset**: Contains information about properties available for sale including similar attributes as the rental dataset.
+
+**Exploratory Data Analysis (EDA)**
+EDA was conducted on both datasets to gain insights into the distribution and relationships of variables. This step involved data cleaning, visualization, and statistical analysis to understand the key factors influencing real estate prices.
+
+**Predictive Modeling**
+- **Linear Regression**: A linear regression model was trained using features such as property type, living area, bedrooms, bathrooms, city, and state to predict prices.
+- **Random Forest Regressor**: A random forest regressor model was employed to capture non-linear relationships and provide more accurate predictions.
+
+**Comparison Model**
+A comparison model was developed to allow users to input specific parameters such as property type, living area, bedrooms, bathrooms, city, and state, and obtain an estimated price based on these factors.
+
+[**For further notes on how to use the Rent vs Buy analysis, click here**](https://github.com/rabellan/Group6_FinalProject/blob/Brandon/Price%20Estimate%20Rent%20vs%20Buy%20Analysis/Updated%20Rent%20vs%20Buy%20Price%20Estimate%20%26%20Analysis.md)
