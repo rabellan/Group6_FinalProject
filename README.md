@@ -90,7 +90,7 @@ Supervised machine learning modeling, were used for the following phase of the p
         - Lot/land area unit
     - In the end, the "Property type" categorical feature was the one that bumped up the precision performance of the supervised model by combining it with using OneHotEncoder and **pipeline** fitting.
 
-[**To see all the exploratory Jupyter Notebooks for ALL supervised models (Decision tree, decision tree with feature engineering, and random forest), click here**](https://github.com/rabellan/Group6_FinalProject/tree/main/Price_Cut)
+[**To see all the exploratory Jupyter Notebooks for price cut prediction supervised models (Decision tree, decision tree with feature engineering, and random forest), click here**](https://github.com/rabellan/Group6_FinalProject/tree/main/Price_Cut)
 
 ### [Real Estate Radar Price Prediction For Both Rental & Sale Properties (Brandon Ingalz and Jimmy Nguyen)](https://github.com/rabellan/Group6_FinalProject/blob/Brandon/Price%20Estimate%20Rent%20vs%20Buy%20Analysis/Updated%20Rent%20vs%20Buy%20Price%20Estimate%20%26%20Analysis.md)
 
