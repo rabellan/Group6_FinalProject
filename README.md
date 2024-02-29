@@ -72,7 +72,7 @@ Final Jupyter notebook files with per city unsupervised learning manipulations a
 
 **Overview**
 
-For the supervised machine learning modeling, Decision Tree and Random Forest models were used to predict price cuts on properties across Los Angeles, Miami, and Chicago, using OneHotEncoder for data preprocessing. The project emphasized the importance of rigorous data preprocessing, careful model choice, and thorough validation to create reliable and generalizable machine learning models.
+Supervised machine learning modeling, were used for the following phase of the project. Decision Tree and Random Forest models were used to predict price cuts on properties across Los Angeles, Miami, and Chicago, using OneHotEncoder for data preprocessing. The project emphasized the importance of rigorous data preprocessing, careful model choice, and thorough validation to create reliable and generalizable machine learning models.
 
 **Methodology**
 1. Data cleaning
@@ -96,4 +96,6 @@ For the supervised machine learning modeling, Decision Tree and Random Forest mo
 
 **Overview**
 
-This project aims to predict real estate prices for rentals and sales using data analysis and machine learning, employing linear regression and random forest algorithms. It utilizes two datasets, one for rentals and one for sales, and includes a comparison model for price estimates based on specific criteria. Analysis revealed a positive but weak correlation between rental prices and property size, bedrooms, and bathrooms, indicating these factors modestly influence rental prices. However, it also notes that external factors like neighborhood and city location play significant roles in determining rental rates.
+The last phase aimed to predict real estate prices for rentals and sales using data analysis and machine learning, employing linear regression and random forest algorithms. It utilized two datasets, one for rentals and one for sales, and includes a comparison model for price estimates based on specific criteria. 
+
+Analysis revealed a positive but weak correlation between rental prices and property size, bedrooms, and bathrooms, indicating these factors modestly influence rental prices. However, it also notes that external factors like neighborhood and city location play significant roles in determining rental rates.
