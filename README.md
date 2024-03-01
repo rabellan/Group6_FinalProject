@@ -27,7 +27,7 @@ We exported data directly off of Zillow using a google plug-in and settled on Lo
 
 ### Group 6's project Data Engineering is courtesy of our team's data engineer, [Diahann Castellon](https://github.com/Diahann-c)
 
-# Data Collection
+## Data Collection
 All data was collected by using Zillow.com with the help of ZillowDataExporter, a google plug-in that allows users to extract up to 40 line items at a time.
 We used the premium feature to extract 800 entries at a time. No dataset exceeded the 800 data entries. Data was exported as Excel (xlsx.) files.
 Data was acquired for the following metropolitan cities: Chandler - Arizona, Chicago - Illinois, Los Angeles - California, Miami - Florida, New York - New York, and Portland - Oregon
